@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   margin: 50px;
+   font-size: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+span{
+    color: red;
+}
+.container{
+    margin: 0 10%;
+    padding: 15px;
+    width: 80%;
+    text-align: left;
+    line-height:30px;
+    background-color: #F0F0F0;
+}
+.college{
+    line-height: 30px;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 15px 20%;
+}
+#name{
+    color: #003366;
+}
+h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.l{
+    padding: 0;
+    text-align: center;
+    line-height: .5px;
+}
+form{
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    color: #003366;
+
+}
+.container h1{
+    text-align: left;
+    font-size: 20px;
+    color:#003366;
+}
+.container p{
+    padding: 11px;
+}
+.container .college .img img{
+    width: 120px;
+}
+.personalinfo, .contactdetail,.familyinfo,.education,.document{
+    margin: 30px 0;
+}
+label{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.declare{
+    padding: 40px 0;
+}
+.declare label{
+    text-transform:capitalize;
+}
+.signature{
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons{
+    font-size: 130px;
+    text-align: center;
+}
+#submit , #reset{
+    color: red;
+    border-color: #000;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 18px;
+}
+#submit{
+    color: blue;
+}
